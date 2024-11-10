@@ -1,0 +1,145 @@
+.content {
+  position: relative;
+  color: white; /* Change text color for better visibility */
+  text-align: center;
+  padding: 50px 15px; /* Added padding */
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
+.footer a {
+  color: #ff6f61;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+ .cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+}
+
+.card img {
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #666;
+}
+
+.main-content {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.main-content h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+.main-content h1 span {
+  color: #00bfa5;
+}
+
+/* Styles for "Why Choose Us" section */
+.choose-us {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.reason {
+  text-align: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 250px;
+}
+
+.reason .icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.reason h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.reason p {
+  font-size: 14px;
+  color: #666;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 15px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+  font-size: 40px;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 14px;
+  color: #666;
+} 
+.content-section {
+  padding: 50px 0;
+}
+
+.content-section h1 {
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.content-section h1 span {
+  color: #007bff;
+}
+
+.work-process,
+.choose-us {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

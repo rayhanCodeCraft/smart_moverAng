@@ -1,0 +1,104 @@
+.main-content {
+  text-align: center;
+  padding: 50px 20px;
+}
+.main-content h1 span {
+  color: #007bff;
+}
+.filters {
+  margin-bottom: 30px;
+}
+.filters select {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+.filters select:hover {
+  background-color: #f0f0f0;
+}
+.search-bar {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.search-bar input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+}
+.search-bar button {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-left: none;
+  background-color: #ff6f61;
+  color: white;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+.search-bar button:hover {
+  background-color: #e65c50;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  background-color: #e0f7fa;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.card img {
+  border-radius: 10px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.card p {
+  color: #666;
+  font-size: 14px;
+  margin: 5px 0;
+}
+.card .experience,
+.card .surgeries {
+  font-weight: 500;
+  margin: 10px 0;
+}
+.card button {
+  background-color: #ff9800;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+  margin-top: 10px;
+}
+.card button:hover {
+  background-color: #e68900;
+}
+
+
+
+
+
