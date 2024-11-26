@@ -7,6 +7,7 @@ import { FormsModule } from '@angular/forms';
   standalone: true,
   imports: [CommonModule,FormsModule],
   templateUrl: './hero.component.html',
+  
   styleUrl: './hero.component.css'
 })
 export class HeroComponent {

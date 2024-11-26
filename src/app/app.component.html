@@ -1,53 +1,15 @@
-<div class="navbar">
-  <img
-    alt="Smart Mover Medical Tourism Logo"
-    height="50"
-    src="/assets/logo.png"
-    width="150"
-  />
-  <div>
-    <a href="#"> Treatments </a>
-    <a href="#"> Wellness </a>
-    <a href="#"> Doctors </a>
-    <a href="#"> Hospitals </a>
-    <a href="#"> Blogs </a>
-    <a href="#"> Join as a Partner </a>
-    <button class="cta" onclick="chatWithExpert()">
-      Chat with a health expert now
-    </button>
-  </div>
-</div>
 
 
+<app-navbar-component></app-navbar-component>
 
-<app-hero></app-hero>
+ <app-hero></app-hero>
 <app-content-section></app-content-section>
 
-
-<app-doctor-card-component> </app-doctor-card-component>
+<!-- <app-doctor-card-component> </app-doctor-card-component>
 <app-doctor-list-component> </app-doctor-list-component>
 
 <app-hospital-card-component></app-hospital-card-component>
-<app-treatment-card-component></app-treatment-card-component>
+<app-treatment-card-component></app-treatment-card-component> --> 
+<router-outlet></router-outlet>
+<app-footer-component></app-footer-component>
 
-
-
-
-
-
-
-
-
-
-<div class="footer">
-  <p>&copy; 2023 Your Company. All rights reserved.</p>
-  <p>
-    <a href="#"> Privacy Policy </a>
-    |
-    <a href="#"> Terms of Service </a>
-    |
-    <a href="#"> Contact Us </a>
-  </p>
-</div>
-
-<router-outlet />

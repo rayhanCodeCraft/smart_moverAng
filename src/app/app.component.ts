@@ -5,12 +5,14 @@ import { RouterLink, RouterOutlet } from '@angular/router';
 
 import { HeroComponent } from './components/home/hero/hero.component';
 import { ContentSectionComponent } from './components/home/content-section/content-section.component';
-import { FooterComponent } from './components/home/footer/footer.component';
+
 
 import { DoctorCardComponentComponent } from './components/NewDoctor/doctor-card-component/doctor-card-component.component';
 import { DoctorListComponentComponent } from './components/NewDoctor/doctor-list-component/doctor-list-component.component';
 import { HospitalCardComponentComponent } from "./components/hospital_component/hospital-card-component/hospital-card-component.component";
 import { TreatmentCardComponentComponent } from "./components/treatmentSection/treatment-card-component/treatment-card-component.component";
+import { NavbarComponentComponent } from './components/navbar-component/navbar-component.component';
+import { FooterComponentComponent } from "./components/footer-component/footer-component.component";
 
 
 @Component({
@@ -19,10 +21,13 @@ import { TreatmentCardComponentComponent } from "./components/treatmentSection/t
   imports: [CommonModule, RouterOutlet,
     HeroComponent,
     ContentSectionComponent,
-    FooterComponent,
-    DoctorCardComponentComponent, DoctorListComponentComponent, HospitalCardComponentComponent, TreatmentCardComponentComponent],
+    DoctorCardComponentComponent, DoctorListComponentComponent, HospitalCardComponentComponent, TreatmentCardComponentComponent, NavbarComponentComponent, FooterComponentComponent],
   
-  templateUrl: './app.component.html',
+    template: `
+    <app-navbar-component></app-navbar-component>
+    <router-outlet></router-outlet>
+    <app-footer-component></app-footer-component>
+  `,
   styleUrl: './app.component.css',
 })
 export class AppComponent {
