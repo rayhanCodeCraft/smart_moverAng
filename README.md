@@ -1,6 +1,9 @@
 # Smart Mover - Angular App
 **Smart Mover** is a dynamic and responsive web application built with Angular, designed to provide a seamless user experience for managing doctor profiles. The application features doctor listings, detailed information views, and advanced filtering options.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
+## Demo Video
+
+[Watch Demo Video]("E:\Our_personal_Group_Project\smart_Mover2024-12-07 120213.mp4")
 
 
 ## Development server
