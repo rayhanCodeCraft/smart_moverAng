@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.11.
 ## Demo Video
 
-[Watch Demo Video]("E:\Our_personal_Group_Project\smart_Mover2024-12-07 120213.mp4")
+[Watch Demo Video]("Our_personal_Group_Project\smart_Mover2024-12-07 120213.mp4")
 
 
 ## Development server
